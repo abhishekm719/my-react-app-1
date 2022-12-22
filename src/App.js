@@ -7,7 +7,7 @@ function App() {
 
   // Funcns
   let getAllMessages = async () => {
-    let url = `http://localhost:3001/messages`;
+    let url = `http://localhost:3000/messages`;
     let response = await axios.get(url);
     // console.log(response);
 
